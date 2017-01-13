@@ -21,7 +21,7 @@ foo:offer1 a gr:Offering ;
 	gr:hasPriceSpecification [ a gr:UnitPriceSpecification ;
 								gr:hasCurrency "USD"^^xsd:string ;
 								gr:hasCurrencyValue "685000"^^xsd:float ] ;
-	foaf:page <hhttps://www.carsforsale.com/used-car-dealer/dp9-motorsports-long-island-ny-d689926/inventory> . # URI of the web page
+	foaf:page <https://www.carsforsale.com/used-car-dealer/dp9-motorsports-long-island-ny-d689926/inventory> . # URI of the web page
 
 # Car Specification
 foo:Lamborghini_Aventador a vso:Automobile, gr:ActualProductOrServiceInstance ; 
@@ -36,7 +36,7 @@ foo:Lamborghini_Aventador a vso:Automobile, gr:ActualProductOrServiceInstance ;
 	vso:engineName "6.5L V12 Natural Aspiration"@en ;
 	vso:mileageFromOdometer [ a gr:QuantitativeValueFloat ;
 							 gr:hasValueFloat "76"^^xsd:float ;
-							 gr:hasUnitOfMeasurement "SMI"^^xsd:string ] ;
+							 gr:hasUnitOfMeasurement "Miles"^^xsd:string ] ;
 	
 	vso:transmission dbpedia:Manual_transmission ;
 	vso:fuelType dbpedia:Gasoline ;

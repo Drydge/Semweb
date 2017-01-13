@@ -67,6 +67,23 @@ SELECT ?com WHERE {
 ?com idemo:population ?pop2011 .
 ?com idemo:population ?pop2013 .
 ?pop2011 idemo:date "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
-?pop2013 idemo:date "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
-?pop2011 idemo:popultaionTotale ?popTot2011.
+?pop2013 idemo:date "2013-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+?pop2011 idemo:populationTotale ?popTot2011.
+?pop2013 idemo:populationTotale ?popTot2013.
+FILTER (?popTot2013>?popTot2011).
 }
+
+#7
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX igeo:<http://rdf.insee.fr/def/geo#>
+PREFIX idemo:<http://rdf.insee.fr/def/demo#>
+
+SELECT ?year (AVG(?regionpop) as ?average) 
+WHERE {
+?region rdf:type igeo:Region .
+?region idemo:population ?yearpop.
+?yearpop idemo:populationTotale ?regionpop.
+?yearpop idemo:date ?date.
+bind( year(xsd:dateTime(?date)) as ?year)
+}
+Group By (?year)
