@@ -1,0 +1,198 @@
+<div xmlns="http://www.w3.org/1999/xhtml"
+  prefix="
+    foaf: http://xmlns.com/foaf/0.1/
+    owl: http://www.w3.org/2002/07/owl#
+    rdfs: http://www.w3.org/2000/01/rdf-schema#
+    wo: http://purl.org/ontology/wo/
+    dctypes: http://purl.org/dc/dcmitype/
+    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+    dcterms: http://purl.org/dc/terms/
+    po: http://purl.org/ontology/po/"
+  >
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Star-nosed_Mole#species">
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+    <div property="rdfs:label" content="Star-nosed mole"></div>
+  </div>
+  <div typeof="foaf:Document" about="http://news.bbc.co.uk/1/hi/england/cumbria/10465086.stm">
+    <div property="dcterms:title" content="Trees felled to preserve rare Cumbrian moorland bog"></div>
+    <div property="dcterms:description" content="A large area of slow-growing conifer trees in Cumbria is being felled to help restore a rare moorland habitat to its former glory."></div>
+    <div rel="foaf:primaryTopic">
+      <div typeof="wo:FreshwaterHabitat" about="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat">
+        <div rel="wo:ecozone" resource="http://rdf-translator.appspot.com/nature/ecozones/Neotropic_ecozone#ecozone"></div>
+        <div rel="wo:ecozone" resource="http://rdf-translator.appspot.com/nature/ecozones/Afrotropic_ecozone#ecozone"></div>
+        <div rel="wo:ecozone" resource="http://rdf-translator.appspot.com/nature/ecozones/Oceania_ecozone#ecozone"></div>
+        <div rel="foaf:depiction" resource="http://ichef.bbci.co.uk/naturelibrary/images/ic/640x360/b/bo/bog/bog_1.jpg"></div>
+        <div property="rdfs:label" content="Bog"></div>
+        <div rel="owl:sameAs" resource="http://dbpedia.org/resource/Bog"></div>
+        <div rel="wo:ecozone" resource="http://rdf-translator.appspot.com/nature/ecozones/Nearctic_ecozone#ecozone"></div>
+        <div property="dcterms:description" content="Bogs, though similar to swamps or marshes, are a distinctive kind of wetland where peat forms from dead plant matter. Waterlogged conditions set this cycle going: still water holds little oxygen compared to flowing water, so plant material can't decay fully and slowly amasses. The decaying plants keep the oxygen level suppressed. Bogs are common in places with wet climates like Siberia, Ireland and Scandinavia."></div>
+        <div rel="wo:ecozone" resource="http://rdf-translator.appspot.com/nature/ecozones/Indomalaya_ecozone#ecozone"></div>
+        <div rel="wo:ecozone" resource="http://rdf-translator.appspot.com/nature/ecozones/Palearctic_ecozone#ecozone"></div>
+        <div rel="wo:ecozone" resource="http://rdf-translator.appspot.com/nature/ecozones/Australasia_ecozone#ecozone"></div>
+      </div>
+    </div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Brown_rat#species">
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+    <div property="rdfs:label" content="Brown rat"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Short-eared_Owl#species">
+    <div property="rdfs:label" content="Short-eared owl"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="foaf:Document" about="http://www.bbc.co.uk/learningzone/clips/how-was-the-giants-causeway-formed/7819.html">
+    <div property="dcterms:description" content="An explanation of the composition of the bog at Sluggan near Randallstown."></div>
+    <div rel="foaf:primaryTopic" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+    <div property="dcterms:title" content="What can we learn from a bog?"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Common_frog#species">
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+    <div property="rdfs:label" content="Common frog"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Darwin's_Frog#species">
+    <div property="rdfs:label" content="Darwin's frog"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="foaf:Document" about="http://news.bbc.co.uk/1/hi/england/8191329.stm">
+    <div rel="foaf:primaryTopic" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+    <div property="dcterms:title" content="Ancient bog restoration complete"></div>
+    <div property="dcterms:description" content="Work to restore an ancient bogland landscape in the north of England has been completed."></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Osprey#species">
+    <div property="rdfs:label" content="Osprey"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="po:Clip" about="http://www.bbc.co.uk/programmes/p005fskd#programme">
+    <div rel="po:subject" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+    <div property="dcterms:title" content="Summer jewels"></div>
+  </div>
+  <div typeof="foaf:Document" about="http://www.bbc.co.uk/news/science-environment-23930954">
+    <div property="dcterms:description" content="The UK's peat bogs and fenlands played a major role during times of conflict but they are now often overlooked or forgotten, say experts."></div>
+    <div property="dcterms:title" content="Wetlands' 'vital role in conflict'"></div>
+    <div rel="foaf:primaryTopic" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="po:Clip" about="http://www.bbc.co.uk/programmes/p007zklg#programme">
+    <div property="dcterms:title" content="Deadly leaves"></div>
+    <div rel="po:subject" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="po:Clip" about="http://www.bbc.co.uk/programmes/p00g5mhh#programme">
+    <div property="dcterms:title" content=" Brecon Beacons"></div>
+    <div rel="po:subject" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Spectacled_Caiman#species">
+    <div property="rdfs:label" content="Spectacled caiman"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Highland_midge#species">
+    <div property="rdfs:label" content="Highland midge"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Whooper_Swan#species">
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+    <div property="rdfs:label" content="Whooper swan"></div>
+  </div>
+  <div typeof="dctypes:Sound" about="http://downloads.bbc.co.uk/earth/naturelibrary/assets/b/bo/bog/mp25471-13.mp3">
+    <div property="dcterms:title" content="Peat bog atmosphere"></div>
+    <div rel="dcterms:subject" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="rdfs:Resource" about="http://rdf-translator.appspot.com/nature/habitats/Bog">
+    <div rel="rdfs:seeAlso" resource="http://rdf-translator.appspot.com/nature/habitats"></div>
+    <div rel="foaf:primaryTopic" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Vanessa_cardui#species">
+    <div property="rdfs:label" content="Painted lady"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="foaf:Document" about="http://www.bbc.co.uk/science/earth/water_and_ice/water_cycle">
+    <div rel="foaf:primaryTopic" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+    <div property="dcterms:title" content="The Water cycle"></div>
+    <div property="dcterms:description" content="Watch BBC video clips full of interesting facts about the water cycle that feature popular presenters such as Professor Iain Stewart."></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Water_Rail#species">
+    <div property="rdfs:label" content="Water rail"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Coronella_austriaca#species">
+    <div property="rdfs:label" content="Smooth snake"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="foaf:Document" about="http://www.bbc.co.uk/news/uk-england-manchester-19796842">
+    <div property="dcterms:title" content="Bog 'recovering' after extraction"></div>
+    <div property="dcterms:description" content="An area of peat bog land is recovering from commercial extraction in a "remarkably short time", Lancashire Wildlife Trust says."></div>
+    <div rel="foaf:primaryTopic" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="foaf:Document" about="http://www.bbc.co.uk/news/uk-scotland-tayside-central-12924424">
+    <div property="dcterms:title" content="Peat reserve for rare butterfly"></div>
+    <div property="dcterms:description" content="A bog near Stirling is declared the first UK reserve for the rare large heath butterfly."></div>
+    <div rel="foaf:primaryTopic" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/North_American_River_Otter#species">
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+    <div property="rdfs:label" content="North American river otter"></div>
+  </div>
+  <div typeof="po:Clip" about="http://www.bbc.co.uk/programmes/p007xbbt#programme">
+    <div property="dcterms:title" content="Future wild"></div>
+    <div rel="po:subject" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="foaf:Document" about="http://en.wikipedia.org/wiki/Bog">
+    <div rel="foaf:primaryTopic" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Siberian_Crane#species">
+    <div property="rdfs:label" content="Siberian crane"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Palmate_Newt#species">
+    <div property="rdfs:label" content="Palmate newt"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Marsh_Frog#species">
+    <div property="rdfs:label" content="Marsh frog"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Venus_Flytrap#species">
+    <div property="rdfs:label" content="Venus flytrap"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="po:Clip" about="http://www.bbc.co.uk/programmes/p007vyyv#programme">
+    <div property="dcterms:title" content="Botanical treasures"></div>
+    <div rel="po:subject" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Common_Crane#species">
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+    <div property="rdfs:label" content="Common crane"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Raccoon#species">
+    <div property="rdfs:label" content="Raccoon"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="wo:Species" about="http://rdf-translator.appspot.com/nature/life/Barn_Owl#species">
+    <div property="rdfs:label" content="Barn owl"></div>
+    <div rel="wo:growsIn" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitats"></div>
+  </div>
+  <div typeof="foaf:Image" about="http://ichef.bbci.co.uk/naturelibrary/images/ic/640x360/b/bo/bog/bog_1.jpg">
+    <div rel="foaf:thumbnail" resource="http://ichef.bbci.co.uk/naturelibrary/images/ic/83x104/b/bo/bog/bog_1.jpg"></div>
+    <div rel="foaf:depicts" resource="http://rdf-translator.appspot.com/nature/habitats/Bog#habitat"></div>
+  </div>
+  <div typeof="wo:Ecozone" about="http://rdf-translator.appspot.com/nature/ecozones/Palearctic_ecozone#ecozone">
+    <div property="rdfs:label" content="Palaearctic"></div>
+  </div>
+  <div typeof="wo:Ecozone" about="http://rdf-translator.appspot.com/nature/ecozones/Afrotropic_ecozone#ecozone">
+    <div property="rdfs:label" content="Afrotropics"></div>
+  </div>
+  <div typeof="wo:Ecozone" about="http://rdf-translator.appspot.com/nature/ecozones/Australasia_ecozone#ecozone">
+    <div property="rdfs:label" content="Australasia"></div>
+  </div>
+  <div typeof="wo:Ecozone" about="http://rdf-translator.appspot.com/nature/ecozones/Nearctic_ecozone#ecozone">
+    <div property="rdfs:label" content="Nearctic"></div>
+  </div>
+  <div typeof="wo:Ecozone" about="http://rdf-translator.appspot.com/nature/ecozones/Indomalaya_ecozone#ecozone">
+    <div property="rdfs:label" content="Indo-Malay"></div>
+  </div>
+  <div typeof="wo:Ecozone" about="http://rdf-translator.appspot.com/nature/ecozones/Oceania_ecozone#ecozone">
+    <div property="rdfs:label" content="Oceania"></div>
+  </div>
+  <div typeof="wo:Ecozone" about="http://rdf-translator.appspot.com/nature/ecozones/Neotropic_ecozone#ecozone">
+    <div property="rdfs:label" content="Neotropical"></div>
+  </div>
+</div>
+

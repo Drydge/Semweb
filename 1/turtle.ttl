@@ -1,0 +1,197 @@
+Input   Output  
+Copy To Clipboard...
+
+@prefix dcmit: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://purl.org/ontology/po/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wo: <http://purl.org/ontology/wo/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://downloads.bbc.co.uk/earth/naturelibrary/assets/b/bo/bog/mp25471-13.mp3> a dcmit:Sound ;
+    dcterms:subject <http://www.bbc.co.uk/nature/habitats/Bog#habitat> ;
+    dcterms:title "Peat bog atmosphere" .
+
+<http://en.wikipedia.org/wiki/Bog> a foaf:Document ;
+    foaf:primaryTopic <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://news.bbc.co.uk/1/hi/england/8191329.stm> a foaf:Document ;
+    dcterms:description "Work to restore an ancient bogland landscape in the north of England has been completed." ;
+    dcterms:title "Ancient bog restoration complete" ;
+    foaf:primaryTopic <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://news.bbc.co.uk/1/hi/england/cumbria/10465086.stm> a foaf:Document ;
+    dcterms:description "A large area of slow-growing conifer trees in Cumbria is being felled to help restore a rare moorland habitat to its former glory." ;
+    dcterms:title "Trees felled to preserve rare Cumbrian moorland bog" ;
+    foaf:primaryTopic <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/learningzone/clips/how-was-the-giants-causeway-formed/7819.html> a foaf:Document ;
+    dcterms:description "An explanation of the composition of the bog at Sluggan near Randallstown." ;
+    dcterms:title "What can we learn from a bog?" ;
+    foaf:primaryTopic <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/nature/habitats/Bog> rdfs:seeAlso <http://www.bbc.co.uk/nature/habitats> ;
+    foaf:primaryTopic <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/nature/life/Barn_Owl#species> a wo:Species ;
+    rdfs:label "Barn owl" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Brown_rat#species> a wo:Species ;
+    rdfs:label "Brown rat" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Common_Crane#species> a wo:Species ;
+    rdfs:label "Common crane" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Common_frog#species> a wo:Species ;
+    rdfs:label "Common frog" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Coronella_austriaca#species> a wo:Species ;
+    rdfs:label "Smooth snake" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Darwin's_Frog#species> a wo:Species ;
+    rdfs:label "Darwin's frog" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Highland_midge#species> a wo:Species ;
+    rdfs:label "Highland midge" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Marsh_Frog#species> a wo:Species ;
+    rdfs:label "Marsh frog" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/North_American_River_Otter#species> a wo:Species ;
+    rdfs:label "North American river otter" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Osprey#species> a wo:Species ;
+    rdfs:label "Osprey" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Palmate_Newt#species> a wo:Species ;
+    rdfs:label "Palmate newt" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Raccoon#species> a wo:Species ;
+    rdfs:label "Raccoon" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Short-eared_Owl#species> a wo:Species ;
+    rdfs:label "Short-eared owl" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Siberian_Crane#species> a wo:Species ;
+    rdfs:label "Siberian crane" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Spectacled_Caiman#species> a wo:Species ;
+    rdfs:label "Spectacled caiman" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Star-nosed_Mole#species> a wo:Species ;
+    rdfs:label "Star-nosed mole" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Vanessa_cardui#species> a wo:Species ;
+    rdfs:label "Painted lady" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Venus_Flytrap#species> a wo:Species ;
+    rdfs:label "Venus flytrap" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Water_Rail#species> a wo:Species ;
+    rdfs:label "Water rail" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/nature/life/Whooper_Swan#species> a wo:Species ;
+    rdfs:label "Whooper swan" ;
+    wo:growsIn <http://www.bbc.co.uk/nature/habitats/Bog#habitats> .
+
+<http://www.bbc.co.uk/news/science-environment-23930954> a foaf:Document ;
+    dcterms:description "The UK's peat bogs and fenlands played a major role during times of conflict but they are now often overlooked or forgotten, say experts." ;
+    dcterms:title "Wetlands' 'vital role in conflict'" ;
+    foaf:primaryTopic <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/news/uk-england-manchester-19796842> a foaf:Document ;
+    dcterms:description "An area of peat bog land is recovering from commercial extraction in a \"remarkably short time\", Lancashire Wildlife Trust says." ;
+    dcterms:title "Bog 'recovering' after extraction" ;
+    foaf:primaryTopic <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/news/uk-scotland-tayside-central-12924424> a foaf:Document ;
+    dcterms:description "A bog near Stirling is declared the first UK reserve for the rare large heath butterfly." ;
+    dcterms:title "Peat reserve for rare butterfly" ;
+    foaf:primaryTopic <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/programmes/p005fskd#programme> a po:Clip ;
+    dcterms:title "Summer jewels" ;
+    po:subject <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/programmes/p007vyyv#programme> a po:Clip ;
+    dcterms:title "Botanical treasures" ;
+    po:subject <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/programmes/p007xbbt#programme> a po:Clip ;
+    dcterms:title "Future wild" ;
+    po:subject <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/programmes/p007zklg#programme> a po:Clip ;
+    dcterms:title "Deadly leaves" ;
+    po:subject <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/programmes/p00g5mhh#programme> a po:Clip ;
+    dcterms:title " Brecon Beacons" ;
+    po:subject <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://www.bbc.co.uk/science/earth/water_and_ice/water_cycle> a foaf:Document ;
+    dcterms:description "Watch BBC video clips full of interesting facts about the water cycle that feature popular presenters such as Professor Iain Stewart." ;
+    dcterms:title "The Water cycle" ;
+    foaf:primaryTopic <http://www.bbc.co.uk/nature/habitats/Bog#habitat> .
+
+<http://ichef.bbci.co.uk/naturelibrary/images/ic/640x360/b/bo/bog/bog_1.jpg> a foaf:Image ;
+    foaf:depicts <http://www.bbc.co.uk/nature/habitats/Bog#habitat> ;
+    foaf:thumbnail <http://ichef.bbci.co.uk/naturelibrary/images/ic/83x104/b/bo/bog/bog_1.jpg> .
+
+<http://www.bbc.co.uk/nature/ecozones/Afrotropic_ecozone#ecozone> a wo:Ecozone ;
+    rdfs:label "Afrotropics" .
+
+<http://www.bbc.co.uk/nature/ecozones/Australasia_ecozone#ecozone> a wo:Ecozone ;
+    rdfs:label "Australasia" .
+
+<http://www.bbc.co.uk/nature/ecozones/Indomalaya_ecozone#ecozone> a wo:Ecozone ;
+    rdfs:label "Indo-Malay" .
+
+<http://www.bbc.co.uk/nature/ecozones/Nearctic_ecozone#ecozone> a wo:Ecozone ;
+    rdfs:label "Nearctic" .
+
+<http://www.bbc.co.uk/nature/ecozones/Neotropic_ecozone#ecozone> a wo:Ecozone ;
+    rdfs:label "Neotropical" .
+
+<http://www.bbc.co.uk/nature/ecozones/Oceania_ecozone#ecozone> a wo:Ecozone ;
+    rdfs:label "Oceania" .
+
+<http://www.bbc.co.uk/nature/ecozones/Palearctic_ecozone#ecozone> a wo:Ecozone ;
+    rdfs:label "Palaearctic" .
+
+<http://www.bbc.co.uk/nature/habitats/Bog#habitat> a wo:FreshwaterHabitat ;
+    rdfs:label "Bog" ;
+    dcterms:description "Bogs, though similar to swamps or marshes, are a distinctive kind of wetland where peat forms from dead plant matter. Waterlogged conditions set this cycle going: still water holds little oxygen compared to flowing water, so plant material can't decay fully and slowly amasses. The decaying plants keep the oxygen level suppressed. Bogs are common in places with wet climates like Siberia, Ireland and Scandinavia." ;
+    wo:ecozone <http://www.bbc.co.uk/nature/ecozones/Afrotropic_ecozone#ecozone>,
+        <http://www.bbc.co.uk/nature/ecozones/Australasia_ecozone#ecozone>,
+        <http://www.bbc.co.uk/nature/ecozones/Indomalaya_ecozone#ecozone>,
+        <http://www.bbc.co.uk/nature/ecozones/Nearctic_ecozone#ecozone>,
+        <http://www.bbc.co.uk/nature/ecozones/Neotropic_ecozone#ecozone>,
+        <http://www.bbc.co.uk/nature/ecozones/Oceania_ecozone#ecozone>,
+        <http://www.bbc.co.uk/nature/ecozones/Palearctic_ecozone#ecozone> ;
+    = <http://dbpedia.org/resource/Bog> ;
+    foaf:depiction <http://ichef.bbci.co.uk/naturelibrary/images/ic/640x360/b/bo/bog/bog_1.jpg> .

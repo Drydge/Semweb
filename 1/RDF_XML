@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:po="http://purl.org/ontology/po/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:wo="http://purl.org/ontology/wo/"
+>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Coronella_austriaca#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdfs:label>Smooth snake</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/habitats/Bog#habitat">
+    <wo:ecozone rdf:resource="http://www.bbc.co.uk/nature/ecozones/Australasia_ecozone#ecozone"/>
+    <dcterms:description>Bogs, though similar to swamps or marshes, are a distinctive kind of wetland where peat forms from dead plant matter. Waterlogged conditions set this cycle going: still water holds little oxygen compared to flowing water, so plant material can't decay fully and slowly amasses. The decaying plants keep the oxygen level suppressed. Bogs are common in places with wet climates like Siberia, Ireland and Scandinavia.</dcterms:description>
+    <wo:ecozone rdf:resource="http://www.bbc.co.uk/nature/ecozones/Indomalaya_ecozone#ecozone"/>
+    <wo:ecozone rdf:resource="http://www.bbc.co.uk/nature/ecozones/Palearctic_ecozone#ecozone"/>
+    <rdfs:label>Bog</rdfs:label>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bog"/>
+    <wo:ecozone rdf:resource="http://www.bbc.co.uk/nature/ecozones/Oceania_ecozone#ecozone"/>
+    <wo:ecozone rdf:resource="http://www.bbc.co.uk/nature/ecozones/Nearctic_ecozone#ecozone"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/FreshwaterHabitat"/>
+    <wo:ecozone rdf:resource="http://www.bbc.co.uk/nature/ecozones/Afrotropic_ecozone#ecozone"/>
+    <foaf:depiction rdf:resource="http://ichef.bbci.co.uk/naturelibrary/images/ic/640x360/b/bo/bog/bog_1.jpg"/>
+    <wo:ecozone rdf:resource="http://www.bbc.co.uk/nature/ecozones/Neotropic_ecozone#ecozone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Barn_Owl#species">
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdfs:label>Barn owl</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/news/science-environment-23930954">
+    <dcterms:description>The UK's peat bogs and fenlands played a major role during times of conflict but they are now often overlooked or forgotten, say experts.</dcterms:description>
+    <foaf:primaryTopic rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title>Wetlands' 'vital role in conflict'</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/learningzone/clips/how-was-the-giants-causeway-formed/7819.html">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title>What can we learn from a bog?</dcterms:title>
+    <foaf:primaryTopic rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <dcterms:description>An explanation of the composition of the bog at Sluggan near Randallstown.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://news.bbc.co.uk/1/hi/england/8191329.stm">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title>Ancient bog restoration complete</dcterms:title>
+    <dcterms:description>Work to restore an ancient bogland landscape in the north of England has been completed.</dcterms:description>
+    <foaf:primaryTopic rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Osprey#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdfs:label>Osprey</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/programmes/p007vyyv#programme">
+    <po:subject rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/po/Clip"/>
+    <dcterms:title>Botanical treasures</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/science/earth/water_and_ice/water_cycle">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <dcterms:title>The Water cycle</dcterms:title>
+    <dcterms:description>Watch BBC video clips full of interesting facts about the water cycle that feature popular presenters such as Professor Iain Stewart.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Star-nosed_Mole#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <rdfs:label>Star-nosed mole</rdfs:label>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Brown_rat#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdfs:label>Brown rat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Common_Crane#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <rdfs:label>Common crane</rdfs:label>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Common_frog#species">
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdfs:label>Common frog</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Short-eared_Owl#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <rdfs:label>Short-eared owl</rdfs:label>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Venus_Flytrap#species">
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <rdfs:label>Venus flytrap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Palmate_Newt#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <rdfs:label>Palmate newt</rdfs:label>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Bog">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/programmes/p007xbbt#programme">
+    <rdf:type rdf:resource="http://purl.org/ontology/po/Clip"/>
+    <dcterms:title>Future wild</dcterms:title>
+    <po:subject rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Water_Rail#species">
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <rdfs:label>Water rail</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/news/uk-england-manchester-19796842">
+    <foaf:primaryTopic rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <dcterms:title>Bog 'recovering' after extraction</dcterms:title>
+    <dcterms:description>An area of peat bog land is recovering from commercial extraction in a "remarkably short time", Lancashire Wildlife Trust says.</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/programmes/p00g5mhh#programme">
+    <po:subject rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <dcterms:title> Brecon Beacons</dcterms:title>
+    <rdf:type rdf:resource="http://purl.org/ontology/po/Clip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://downloads.bbc.co.uk/earth/naturelibrary/assets/b/bo/bog/mp25471-13.mp3">
+    <dcterms:subject rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Sound"/>
+    <dcterms:title>Peat bog atmosphere</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/programmes/p005fskd#programme">
+    <po:subject rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/po/Clip"/>
+    <dcterms:title>Summer jewels</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Raccoon#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdfs:label>Raccoon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/ecozones/Oceania_ecozone#ecozone">
+    <rdfs:label>Oceania</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Ecozone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/ecozones/Neotropic_ecozone#ecozone">
+    <rdfs:label>Neotropical</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Ecozone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/programmes/p007zklg#programme">
+    <po:subject rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <dcterms:title>Deadly leaves</dcterms:title>
+    <rdf:type rdf:resource="http://purl.org/ontology/po/Clip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ichef.bbci.co.uk/naturelibrary/images/ic/640x360/b/bo/bog/bog_1.jpg">
+    <foaf:depicts rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <foaf:thumbnail rdf:resource="http://ichef.bbci.co.uk/naturelibrary/images/ic/83x104/b/bo/bog/bog_1.jpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Highland_midge#species">
+    <rdfs:label>Highland midge</rdfs:label>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/North_American_River_Otter#species">
+    <rdfs:label>North American river otter</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/ecozones/Palearctic_ecozone#ecozone">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Ecozone"/>
+    <rdfs:label>Palaearctic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/habitats/Bog">
+    <foaf:primaryTopic rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/nature/habitats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/news/uk-scotland-tayside-central-12924424">
+    <dcterms:description>A bog near Stirling is declared the first UK reserve for the rare large heath butterfly.</dcterms:description>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title>Peat reserve for rare butterfly</dcterms:title>
+    <foaf:primaryTopic rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Spectacled_Caiman#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdfs:label>Spectacled caiman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Whooper_Swan#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdfs:label>Whooper swan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Vanessa_cardui#species">
+    <rdfs:label>Painted lady</rdfs:label>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://news.bbc.co.uk/1/hi/england/cumbria/10465086.stm">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dcterms:title>Trees felled to preserve rare Cumbrian moorland bog</dcterms:title>
+    <foaf:primaryTopic rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitat"/>
+    <dcterms:description>A large area of slow-growing conifer trees in Cumbria is being felled to help restore a rare moorland habitat to its former glory.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Siberian_Crane#species">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+    <rdfs:label>Siberian crane</rdfs:label>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Darwin's_Frog#species">
+    <rdfs:label>Darwin's frog</rdfs:label>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/ecozones/Indomalaya_ecozone#ecozone">
+    <rdfs:label>Indo-Malay</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Ecozone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/life/Marsh_Frog#species">
+    <rdfs:label>Marsh frog</rdfs:label>
+    <wo:growsIn rdf:resource="http://www.bbc.co.uk/nature/habitats/Bog#habitats"/>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Species"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/ecozones/Afrotropic_ecozone#ecozone">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Ecozone"/>
+    <rdfs:label>Afrotropics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/ecozones/Australasia_ecozone#ecozone">
+    <rdfs:label>Australasia</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Ecozone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.bbc.co.uk/nature/ecozones/Nearctic_ecozone#ecozone">
+    <rdf:type rdf:resource="http://purl.org/ontology/wo/Ecozone"/>
+    <rdfs:label>Nearctic</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
+

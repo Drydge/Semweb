@@ -1,0 +1,48 @@
+# Car Sales
+
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix gr:      <http://purl.org/goodrelations/v1#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix vso:     <http://purl.org/vso/ns#> .
+@prefix foo:     <http://example.org/#> .
+
+# Company / Vendor Data (needed only once for all offers)
+foo:company a gr:BusinessEntity ;
+	gr:legalName "DP9 Motorsports" ;
+	foaf:page <https://www.carsforsale.com/used-car-dealer/dp9-motorsports-long-island-ny-d689926/> ;
+	gr:offers foo:offer1 .
+
+# Offer: Price, Payment, Conditions
+foo:offer1 a gr:Offering ;
+	gr:includes foo:Lamborghini_Aventador ;
+	gr:hasBusinessFunction gr:Sell ;
+	gr:hasPriceSpecification [ a gr:UnitPriceSpecification ;
+								gr:hasCurrency "USD"^^xsd:string ;
+								gr:hasCurrencyValue "685000"^^xsd:float ] ;
+	foaf:page <hhttps://www.carsforsale.com/used-car-dealer/dp9-motorsports-long-island-ny-d689926/inventory> . # URI of the web page
+
+# Car Specification
+foo:Lamborghini_Aventador a vso:Automobile, gr:ActualProductOrServiceInstance ; 
+	gr:hasManufacturer dbpedia:Lamborghini ;
+	gr:hasMakeAndModel dbpedia:Lamborghini_Aventador ;
+	vso:modelDate "8/30/2016"^^xsd:date ; # year-only data is not possible in xsd:date and also problematic
+	vso:bodyStyle dbpedia:Roadster_(automobile) ; # Coupé
+	vso:color "blue"@en ;
+	vso:engineDisplacement [ a gr:QuantitativeValueFloat ;
+							 gr:hasValueFloat "6.5"^^xsd:float ;
+							 gr:hasUnitOfMeasurement "LTR"^^xsd:string ] ;
+	vso:engineName "6.5L V12 Natural Aspiration"@en ;
+	vso:mileageFromOdometer [ a gr:QuantitativeValueFloat ;
+							 gr:hasValueFloat "76"^^xsd:float ;
+							 gr:hasUnitOfMeasurement "SMI"^^xsd:string ] ;
+	
+	vso:transmission dbpedia:Manual_transmission ;
+	vso:fuelType dbpedia:Gasoline ;
+	vso:feature dbpedia:Cup_holder,
+				dbpedia:Power_window,
+				dbpedia:Air_conditioner,
+				dbpedia:Anti-lock_braking_system,
+				dbpedia:Backup_camera;  # Add more DBPedia / Wikipedia URIs for additional features
+	

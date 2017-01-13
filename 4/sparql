@@ -1,0 +1,72 @@
+#1
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX igeo:<http://rdf.insee.fr/def/geo#>
+
+SELECT ?class WHERE {
+?class a owl:Class.
+}
+
+#2
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX igeo:<http://rdf.insee.fr/def/geo#>
+
+Select (Count(?nbcomunes) as ?count) WHERE {
+?nbcomunes a igeo:Commune.
+}
+
+#3
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX igeo:<http://rdf.insee.fr/def/geo#>
+
+SELECT ?region ?second ?third WHERE {
+?region rdf:type igeo:Region .
+?region igeo:nom "Lorraine" .
+?region ?second ?third.
+}
+
+#4
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX igeo:<http://rdf.insee.fr/def/geo#>
+PREFIX idemo:<http://rdf.insee.fr/def/demo#>
+
+SELECT ?pop WHERE {
+?region rdf:type igeo:Region .
+?region igeo:nom "Lorraine" .
+?region idemo:population ?popLegal .
+?popLegal idemo:date "2013-01-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+?popLegal idemo:populationTotale ?pop .
+}
+
+#5
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX igeo:<http://rdf.insee.fr/def/geo#>
+PREFIX idemo:<http://rdf.insee.fr/def/demo#>
+
+SELECT ?com WHERE {
+?com a igeo:Commune .
+?departement rdf:type igeo:Departement .
+?departement igeo:nom "Loire" .
+?departement igeo:subdivisionDirecte ?arrondissement .
+?arrondissement igeo:subdivisionDirecte ?com .
+}
+
+
+#6
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX igeo:<http://rdf.insee.fr/def/geo#>
+PREFIX idemo:<http://rdf.insee.fr/def/demo#>
+
+SELECT ?com WHERE {
+?com a igeo:Commune .
+?com idemo:population ?pop2011 .
+?com idemo:population ?pop2013 .
+?pop2011 idemo:date "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+?pop2013 idemo:date "2011-01-01"^^<http://www.w3.org/2001/XMLSchema#date>.
+?pop2011 idemo:popultaionTotale ?popTot2011.
+}
