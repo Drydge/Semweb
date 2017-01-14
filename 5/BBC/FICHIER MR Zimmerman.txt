@@ -1,0 +1,1 @@
+Tout allais bien dans la lecture des URL mais le liens de Great_white_shark ne peux pas être lu a cause d'erreur lié au fichier de rdf ressources je l'ai donc modifié réparer et vous pouvez les tester en mettant en URI:

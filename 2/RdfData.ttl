@@ -37,6 +37,6 @@ foo:Lamborghini_Aventador a vso:Automobile ;
 	vso:mileageFromOdometer [ a gr:QuantitativeValueFloat ;
 							 gr:hasValueFloat "76"^^xsd:float ;
 							 gr:hasUnitOfMeasurement "Miles"^^xsd:string ] ;
-	
+	vso:DriveWheelConfigurationValue vso:AWD;
 	vso:transmission "Automatic 7-Speed" ;
 	vso:fuelType dbpedia:Gasoline ;
