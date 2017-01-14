@@ -24,25 +24,19 @@ foo:offer1 a gr:Offering ;
 	foaf:page <https://www.carsforsale.com/used-car-dealer/dp9-motorsports-long-island-ny-d689926/inventory> . # URI of the web page
 
 # Car Specification
-foo:Lamborghini_Aventador a vso:Automobile, gr:ActualProductOrServiceInstance ; 
+foo:Lamborghini_Aventador a vso:Automobile ; 
 	gr:hasManufacturer dbpedia:Lamborghini ;
 	gr:hasMakeAndModel dbpedia:Lamborghini_Aventador ;
-	vso:modelDate "8/30/2016"^^xsd:date ; # year-only data is not possible in xsd:date and also problematic
+	vso:modelDate "2016-08-30"^^xsd:date ; # year-only data is not possible in xsd:date and also problematic
 	vso:bodyStyle dbpedia:Roadster_(automobile) ; # Coupé
 	vso:color "blue"@en ;
 	vso:engineDisplacement [ a gr:QuantitativeValueFloat ;
 							 gr:hasValueFloat "6.5"^^xsd:float ;
-							 gr:hasUnitOfMeasurement "LTR"^^xsd:string ] ;
+							 gr:hasUnitOfMeasurement "L"^^xsd:string ] ;
 	vso:engineName "6.5L V12 Natural Aspiration"@en ;
 	vso:mileageFromOdometer [ a gr:QuantitativeValueFloat ;
 							 gr:hasValueFloat "76"^^xsd:float ;
 							 gr:hasUnitOfMeasurement "Miles"^^xsd:string ] ;
 	
-	vso:transmission dbpedia:Manual_transmission ;
+	vso:transmission "Automatic 7-Speed" ;
 	vso:fuelType dbpedia:Gasoline ;
-	vso:feature dbpedia:Cup_holder,
-				dbpedia:Power_window,
-				dbpedia:Air_conditioner,
-				dbpedia:Anti-lock_braking_system,
-				dbpedia:Backup_camera;  # Add more DBPedia / Wikipedia URIs for additional features
-	
